@@ -22,6 +22,11 @@
   }
 
 
+#contenedor {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+  }
+
   #title {
 
     font-family: "Roboto-Regular";
@@ -164,15 +169,15 @@ p {
 
 
 @media (min-width: 576px) {
-    .contenedor {
+    #contenedor {
       max-width: 540px;
     }
   }
   
   @media (min-width: 768px) {
-    .contenedor {
+    #contenedor {
       max-width: 720px;
     }
   }
 
-  
+
